@@ -60,7 +60,6 @@ func getLastDigit(line string) rune {
 }
 
 func main() {
-
 	if len(os.Args) < 2 {
 		fmt.Printf("Usage: go run day1_1.go <filename>\n")
 		return
